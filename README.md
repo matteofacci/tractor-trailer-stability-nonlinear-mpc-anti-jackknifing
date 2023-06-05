@@ -57,7 +57,7 @@ Make sure you have the necessary software and libraries installed before running
 
 ## :warning: Important Note :warning:
 
-**Make sure to consider the following before using this repository:**
+**Make sure to consider the following before using this repository**
 
 This project has been developed and tested on **Windows 11** using a specific version of the CasADi Toolbox. Please note that if you are using a different operating system or a different version of CasADi, there might be compatibility issues or differences in the toolbox functionality.
 
