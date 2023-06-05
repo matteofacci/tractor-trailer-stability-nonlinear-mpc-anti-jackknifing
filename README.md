@@ -1,6 +1,6 @@
 # Enhancing Tractor-Trailer System Stability through Nonlinear Anti-Jackknifing Model Predictive Control
 
-This repository contains the code and documentation for my master's thesis titled "Enhancing Tractor-Trailer System Stability through Nonlinear Anti-Jackknifing Model Predictive Control." In this thesis, we propose a control strategy to prevent the jackknife effect in tractor-trailer systems using a nonlinear Model Predictive Control (MPC) approach.
+This repository contains the code and [documentation](facci_matteo_master_thesis.pdf) for my master's thesis titled "Enhancing Tractor-Trailer System Stability through Nonlinear Anti-Jackknifing Model Predictive Control." In this thesis, we propose a control strategy to prevent the jackknife effect in tractor-trailer systems using a nonlinear Model Predictive Control (MPC) approach.
 
 ## Introduction
 
@@ -38,4 +38,4 @@ The thesis discusses the state-of-the-art control scheme, [An Intrinsically Stab
 
 The proposed Nonlinear Anti-Jackknifing Model Predictive Control approach effectively prevents the jackknife effect in tractor-trailer systems by ensuring stable trajectory tracking. The advanced stabilizing terminal constraint outperforms the basic constraint in terms of tracking accuracy and convergence speed. The simulations demonstrate the robustness and versatility of the proposed approach, making it a promising solution for real-world applications.
 
-For more details, please refer to the complete thesis documentation and code in this repository.
+For more details, please refer to the complete thesis [documentation](facci_matteo_master_thesis.pdf) and code in this repository.
