@@ -40,9 +40,12 @@ The proposed approach is implemented using numerical optimization techniques. We
 
 Several simulations are performed to evaluate the effectiveness of the proposed approach. The advanced stabilizing terminal constraint consistently outperforms the basic constraint in terms of tracking accuracy, control horizon, iteration time, and settling time. Various reference trajectories are tested, including linear, circular, rectangular, and obstacle avoidance paths. The simulations demonstrate successful trajectory tracking and system stability.
 
+<img src="readme_media/RRT_path.png" height="400"/>
+<img src="readme_media/RRT_tracking.gif" height="400"/>
+
 ### State-of-the-Art and Future Work
 
-The thesis discusses the state-of-the-art control scheme, [An Intrinsically Stable MPC Approach for Anti-Jackknifing Control of Tractor-Trailer Vehicles](https://ieeexplore.ieee.org/document/9740173). A comparison between the proposed Nonlinear MPC approach and the state-of-the-art method is provided, highlighting the advantages of the Nonlinear MPC in handling tracking and stabilization simultaneously. Future work includes validating the results with an experimental prototype, exploring online obstacle avoidance strategies, and enhancing the existing Rapidly Exploring Random Tree (RRT) algorithm by incorporating techniques such as Bezier curves and different motion primitives.
+The thesis discusses the state-of-the-art control scheme, [An Intrinsically Stable MPC Approach for Anti-Jackknifing Control of Tractor-Trailer Vehicles](https://ieeexplore.ieee.org/document/9740173). A comparison between the proposed Nonlinear MPC approach and the state-of-the-art method is provided, highlighting the advantages of the Nonlinear MPC in handling tracking and stabilization simultaneously. Future work includes validating the results with an experimental prototype, exploring online obstacle avoidance strategies, and enhancing the existing Rapidly Exploring Random Tree* (RRT*) algorithm by incorporating techniques such as Bezier curves and different motion primitives.
 
 ### Conclusion
 
