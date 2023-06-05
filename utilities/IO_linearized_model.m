@@ -1,0 +1,13 @@
+function dstate = IO_linearized_model(t, state, u1, u2)
+    
+    global L L1 L2 d
+    
+    theta = state(3);
+    psi = state(4);
+    phi = state(5);
+    
+    dstate = [ u1; ...
+           u2; ...
+           sin(phi)/L*(cos(theta+phi)*u1 + sin(theta+phi)*u2); ...
+           -1/(L*L2)*(L1*sin(phi)*cos(psi) + L2*sin(phi) + L*cos(phi)*sin(psi))*(cos(theta+phi)*u1 + sin(theta+phi)*u2); ...
+           -u1*(cos(theta+phi)*sin(phi)/L + sin(theta+phi)/d) - u2*(sin(theta+phi)*sin(phi)/L - cos(theta+phi)/d) ];
