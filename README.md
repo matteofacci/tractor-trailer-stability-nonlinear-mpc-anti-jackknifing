@@ -24,7 +24,7 @@ Stabilizing terminal constraints are incorporated to enhance system stability. T
 
 ## Implementation of the Proposed Approach
 
-The proposed approach is implemented using numerical optimization techniques. We transcribe the optimal control problem into a Multiple Shooting Nonlinear Programming Problem and utilize the Runge Kutta 4th order integration method. The simulations are conducted in Matlab using the Casadi toolbox, known for its capabilities in numerical optimization and NLP problems.
+The proposed approach is implemented using numerical optimization techniques. We transcribe the optimal control problem into a Multiple Shooting Nonlinear Programming Problem and utilize the Runge Kutta 4th order integration method. The simulations are conducted in MATLAB using the [CasADi](https://github.com/casadi) toolbox, known for its capabilities in numerical optimization and NLP problems.
 
 ## Simulations and Results
 
