@@ -18,6 +18,8 @@ The jackknife effect occurs when the angle between the tractor and the trailer d
 
 ### Problem Formulation and Implementation
 
+<img src="readme_media/traj_track.png" height="250"/>
+
 This is a standard trajectory tracking, where the goal is to minimize the error between a given reference trajectory (cartesian coordinates) and the actual trajectory. We observe that the system exhibits instability with negative velocities during reverse motion due to the unstable zero dynamics of the angular variables. To address this, we introduce a kinematic model for the tractor-trailer system, making certain assumptions about rigid bodies, control points, road conditions, and input characteristics.
 
 ### Nonlinear MPC Formulation
@@ -31,6 +33,8 @@ Output error feedback linearization is a control technique employed in trajector
 ### Stabilizing Terminal Constraints
 
 Stabilizing terminal constraints are incorporated to enhance system stability. Two versions of stabilizing terminal constraints are considered: basic and advanced. The basic version uses an equality constraint on the angular variables between the state and the auxiliary trajectory. The advanced version takes into account all state variables by expressing the system dynamics in terms of error coordinates and linearizing them around the auxiliary trajectory. A transformation matrix is used to decouple the state matrix, resulting in a new terminal constraint.
+
+<img src="readme_media/NMPC.png" height="250"/>
 
 ### Implementation of the Proposed Approach
 
