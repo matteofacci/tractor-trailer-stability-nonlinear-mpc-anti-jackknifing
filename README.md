@@ -28,7 +28,7 @@ Output error feedback linearization is a control technique employed in trajector
 
 ### Stabilizing Terminal Constraints
 
-Stabilizing terminal constraints are incorporated to enhance system stability. Two versions of stabilizing terminal constraints are considered: basic and advanced. The basic version uses an equality constraint on the unstable variables between the state and the auxiliary trajectory. The advanced version takes into account all state variables by expressing the system dynamics in terms of error coordinates and linearizing them around the auxiliary trajectory. A transformation matrix is used to decouple the state matrix, resulting in a new terminal constraint.
+Stabilizing terminal constraints are incorporated to enhance system stability. Two versions of stabilizing terminal constraints are considered: basic and advanced. The basic version uses an equality constraint on the angular variables between the state and the auxiliary trajectory. The advanced version takes into account all state variables by expressing the system dynamics in terms of error coordinates and linearizing them around the auxiliary trajectory. A transformation matrix is used to decouple the state matrix, resulting in a new terminal constraint.
 
 ### Implementation of the Proposed Approach
 
