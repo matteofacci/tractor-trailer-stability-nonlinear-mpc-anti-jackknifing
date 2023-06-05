@@ -32,7 +32,7 @@ Several simulations are performed to evaluate the effectiveness of the proposed 
 
 ## State-of-the-Art and Future Work
 
-The thesis discusses the state-of-the-art control scheme, Intrinsically Stable MPC for anti-jackknifing control. A comparison between the proposed Nonlinear MPC approach and the state-of-the-art method is provided, highlighting the advantages of the Nonlinear MPC in handling tracking and stabilization simultaneously. Future work includes validating the results with an experimental prototype, exploring online obstacle avoidance strategies, and enhancing the existing Rapidly Exploring Random Tree (RRT) algorithm by incorporating techniques such as Bezier curves and different motion primitives.
+The thesis discusses the state-of-the-art control scheme, [An Intrinsically Stable MPC Approach for Anti-Jackknifing Control of Tractor-Trailer Vehicles](https://ieeexplore.ieee.org/document/9740173). A comparison between the proposed Nonlinear MPC approach and the state-of-the-art method is provided, highlighting the advantages of the Nonlinear MPC in handling tracking and stabilization simultaneously. Future work includes validating the results with an experimental prototype, exploring online obstacle avoidance strategies, and enhancing the existing Rapidly Exploring Random Tree (RRT) algorithm by incorporating techniques such as Bezier curves and different motion primitives.
 
 ## Conclusion
 
