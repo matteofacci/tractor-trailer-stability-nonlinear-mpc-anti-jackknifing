@@ -68,7 +68,7 @@ Make sure you have the necessary software and libraries installed before running
 
 **Make sure to consider the following before using this repository:**
 
-This project has been developed and tested on **Windows 11** using a specific version of the CasADi Toolbox. Please note that if you are using a different operating system or a different version of CasADi, there might be compatibility issues or differences in the toolbox functionality.
+This project has been developed and tested on **Windows 11** using MATLAB R2023a and a specific version of the CasADi Toolbox. Please note that if you are using a different operating system or a different version of MATLAB and CasADi, there might be compatibility issues or differences in the functionality.
 
 If you are using a different operating system, you may need to adapt the code or obtain the appropriate version of CasADi for your system.
 
