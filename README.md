@@ -84,4 +84,4 @@ Feel free to use the code and documentation for academic or personal purposes, b
 I would like to express my gratitude to my thesis advisor and co-advisor for their guidance and support throughout this project. Their valuable insights and feedback have greatly contributed to the development of this control technique.
 
 
-For any further questions or inquiries, please feel free to contact me at [matteo.facci@outlook.it]
+For any further questions or inquiries, please feel free to contact me at matteo.facci@outlook.it
